@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'JetBrains Mono', monospace;
+  padding: 20px 40px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px 50px;
+  background-color: #fff;
+}
+
+header .logo {
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+}
+
+header .name {
+  font-size: 48px;
+  color: #2D2D51;
+  font-weight: bold;
+}
