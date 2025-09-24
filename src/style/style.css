@@ -1,3 +1,13 @@
+:root {
+  --light-blue: #039BE6;
+  --yellow: #F7BF2D;
+  --purple: #403F67;
+  --accent-purple: #2D2D51;
+  --off-white: #F5F8FF;
+  --white: #FFFFFF;
+  --gray: #737373;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +24,7 @@ header {
   align-items: center;
   padding: 10px 50px;
   background-color: #fff;
+  margin-bottom: 80px;
 }
 
 header .logo {
@@ -26,4 +37,15 @@ header .name {
   font-size: 48px;
   color: #2D2D51;
   font-weight: bold;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
