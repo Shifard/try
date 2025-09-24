@@ -12,10 +12,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'JetBrains Mono', monospace;
 }
 
 body {
-  font-family: 'JetBrains Mono', monospace;
   padding: 20px 40px;
 }
 
@@ -24,7 +24,7 @@ header {
   align-items: center;
   padding: 10px 50px;
   background-color: #fff;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 header .logo {
@@ -34,7 +34,7 @@ header .logo {
 }
 
 header .name {
-  font-size: 48px;
+  font-size: 3rem;
   color: #2D2D51;
   font-weight: bold;
 }
@@ -48,4 +48,61 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+section .tool-name {
+  font-size: 2.5rem;
+  color: #000;
+  font-weight: bold;
+  .space {
+    margin: 0 4px;
+  }
+  margin-bottom: 5px;
+}
+
+section .slogan {
+  font-size: 2.5rem;
+  color: var(--gray);
+  font-weight: bold;
+  margin-bottom: 36px;
+}
+
+section .get-TUN-eye {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  background-color: #D9D9D9;
+  padding: 0 15px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  .circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--accent-purple);
+    margin-top: 4px;
+  }
+  .get {
+    font-size: 1.5rem;
+  }
+}
+
+section .preview {
+  width: 600px;
+  height: 600px;
+  margin-bottom: 36px;
+}
+
+section .description {
+  font-size: 1.5rem;
+  color: #737373;
+  margin-bottom: 36px;
+}
+
+section .code {
+  font-size: 1.5rem;
+  padding: 10px 30px;
+  background-color: #D9D9D9;
+  border: none;
+  cursor: pointer;
 }
