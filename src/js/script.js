@@ -32,7 +32,7 @@ function detectBrowser() {
 
 function updateBrowserIcon() {
   const browser = detectBrowser();
-  const iconEl = document.querySelector('.browser-icon');
+  const iconEl = document.querySelector('.get-TUN-eye img');
 
   const browserIcons = {
     chrome: './src/img/chrome.webp',
