@@ -1,7 +1,7 @@
 const getTUNEYEButton = document.querySelector('.get-TUN-eye');
 
 getTUNEYEButton.addEventListener('click', () => {
-  window.open('https://www.example.com', '_blank');
+  window.open('https://chromewebstore.google.com/', '_blank');
 });
 
 const sourceCode = document.querySelector('.code');
